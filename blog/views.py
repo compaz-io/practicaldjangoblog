@@ -11,3 +11,6 @@ def posts(request):
 
 def post_detail(request):
     return HttpResponse('Post')
+
+def test_view(request):
+    return HttpResponse('Post')
